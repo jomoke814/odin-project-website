@@ -60,9 +60,10 @@ ul {
 }
 
 .header {
+    display: flex;
     background-color: #1F2937;
     min-height: 400px;
-    padding-top: 50px;
+    /* padding-top: 50px; */
 }
 
 .header h1 {
@@ -106,6 +107,7 @@ ul {
 .push-right p {
    text-align: center;
    padding-top: 80px;
+   max-width: 480px;
 }
 
 .main {
@@ -146,6 +148,10 @@ ul {
     width: 150px;
 }
 
+.card p {
+    color: #1F2937;
+}
+
 .Quote-section {
     min-height: 400px;
     background-color: #e5e7eb;
@@ -170,13 +176,45 @@ span {
     font-weight: bold;
 }
 
+.sign-up-section {
+    min-height: 350px;
+}
 
+.sign-up-section .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
 
+.container .sign-up {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882f6;
+    padding: 48px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.sign-up h3,p {
+    color:#E5E7EB
+}
+
+.sign-up .btn-second {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    font-weight: bold;
+    padding: 7px;
+    border-radius: 10px;
+    width: 100px;
+    border: 2px solid whitesmoke
+}
 
 .footer {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #1F2937;
-    height: 50px;
+    padding: 40px;
 }

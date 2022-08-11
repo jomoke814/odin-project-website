@@ -148,6 +148,11 @@ ul {
     width: 150px;
 }
 
+.card .box:hover {
+    width: 200px;
+    height: 200px;
+}
+
 .card p {
     color: #1F2937;
 }
